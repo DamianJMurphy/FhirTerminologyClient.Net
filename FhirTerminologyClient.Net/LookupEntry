@@ -1,16 +1,20 @@
 
 		{
 			"resource" : {
-				"parameter" : [
-					{
-						"name" : "system",
-						"valueUri" : "http://snomed.info/sct"
-					},
-					{
-						"name" : "code",
-						"valueCode" : "__CODE__"
-					}
-				],
+        "parameter": [
+          {
+            "name": "system",
+            "valueUri": "http://snomed.info/sct"
+          },
+          {
+            "name": "code",
+            "valueCode": "__CODE__"
+          },
+          {
+            "name": "property",
+            "valueCode": "*"
+          }
+        ],
 				"resourceType" : "Parameters"
 			},
 			"request" : {
